@@ -1,0 +1,31 @@
+.calculator {
+	padding: 15px;
+	color: black;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(4, 50px);
+	grid-gap: 4px;
+}
+
+.display {
+	grid-column-start: span 4;
+	grid-row-start: span 2;
+}
+
+.display > input {
+	width: 100%;
+}
+
+.numeralButton {
+}
+
+.operatorButton {
+}
+
+.clearButton {
+	grid-column: span 2;
+}
+
+.equalsButton {
+	grid-column: span 2;
+}
